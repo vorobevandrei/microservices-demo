@@ -96,7 +96,7 @@ func (fe *frontendServer) getShippingQuote(ctx context.Context, items []*pb.Cart
 	return localized, errors.Wrap(err, "failed to convert currency for shipping cost")
 }
 
-func (fe *frontendServer) getRecommendations(ctx context.Context, userID string, productIDs []string) ([]*pb.Product, error) {
+func (fe *frontendServer) getRecommendations(ctx context.Context, userID string, productIDs []string, maxResults int32) ([]*pb.Product, error) {
 	resp, err := pb.NewRecommendationServiceClient(fe.recommendationSvcConn).ListRecommendations(ctx,
 		&pb.ListRecommendationsRequest{UserId: userID, ProductIds: productIDs})
 	if err != nil {
@@ -110,8 +110,8 @@ func (fe *frontendServer) getRecommendations(ctx context.Context, userID string,
 		}
 		out[i] = p
 	}
-	if len(out) > 4 {
-		out = out[:4] // take only first four to fit the UI
+	if len(out) > maxResults {
+		out = out[:maxResults] // take only first four to fit the UI
 	}
 	return out, err
 }
