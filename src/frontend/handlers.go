@@ -73,7 +73,7 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// Fetch recommendations for the user.
-	recommendations, err := fe.getRecommendations(r.Context(), sessionID(r), nil, 2)
+	recommendations, err := fe.getRecommendations(r.Context(), sessionID(r), nil, 3)
 	if err != nil {
 		log.WithField("error", err).Warn("failed to get product recommendations")
 	}
