@@ -72,6 +72,12 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// Fetch recommendations for the user.
+	recommendations, err := fe.getRecommendations(r.Context(), sessionID(r), nil, 2)
+	if err != nil {
+		log.WithField("error", err).Warn("failed to get product recommendations")
+	}
+
 	type productView struct {
 		Item  *pb.Product
 		Price *pb.Money
@@ -105,6 +111,7 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 	plat.setPlatformDetails(strings.ToLower(env))
 
 	if err := templates.ExecuteTemplate(w, "home", map[string]interface{}{
+		"recommendations": recommendations,
 		"session_id":        sessionID(r),
 		"request_id":        r.Context().Value(ctxKeyRequestID{}),
 		"user_currency":     currentCurrency(r),

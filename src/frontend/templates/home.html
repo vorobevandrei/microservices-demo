@@ -31,6 +31,25 @@
 
       <div class="col-12 col-lg-8">
 
+        <!-- For You section -->
+        <div class="row hot-products-row px-xl-6">
+          <div class="col-12">
+            <h3>For You</h3>
+          </div>
+          {{ range .recommendations }}
+          <div class="col-md-4 hot-product-card">
+            <a href="/product/{{.Id}}">
+              <img alt="" src="{{.Picture}}">
+              <div class="hot-product-card-img-overlay"></div>
+            </a>
+            <div>
+              <div class="hot-product-card-name">{{ .Name }}</div>
+              <div class="hot-product-card-price">{{ renderMoney .PriceUsd }}</div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+
         <div class="row hot-products-row px-xl-6">
 
           <div class="col-12">
