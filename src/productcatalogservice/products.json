@@ -26,15 +26,15 @@
         },
         {
             "id": "CTNT1234ID",
-            "name": "Camping Tent",
-            "description": "Spacious and weather-resistant camping tent, perfect for any outdoor adventure.",
-            "picture": "/static/img/products/Camping-Tent.png",
+            "name": "Camping Table",
+            "description": "Foldable and weather-resistant camping table, perfect for any outdoor adventure.",
+            "picture": "/static/img/products/Camping-Table.png",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 99,
+                "units": 73,
                 "nanos": 990000000
             },
-            "categories": ["camping", "shelter"]
+            "categories": ["camping", "furniture"]
         },
         {
             "id": "DJKT1234ID",
