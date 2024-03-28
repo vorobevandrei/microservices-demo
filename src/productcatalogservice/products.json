@@ -1,112 +1,172 @@
 {
     "products": [
         {
-            "id": "OLJCESPC7Z",
-            "name": "Sunglasses",
-            "description": "Add a modern touch to your outfits with these sleek aviator sunglasses.",
-            "picture": "/static/img/products/sunglasses.jpg",
+            "id": "BPCK1234ID",
+            "name": "Backpack",
+            "description": "Durable and spacious backpack, perfect for hiking or daily use.",
+            "picture": "/static/img/products/Backpack.png",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 19,
+                "units": 49,
                 "nanos": 990000000
             },
-            "categories": ["accessories"]
+            "categories": ["gear", "accessories"]
         },
         {
-            "id": "66VCHSJNUP",
-            "name": "Tank Top",
-            "description": "Perfectly cropped cotton tank, with a scooped neckline.",
-            "picture": "/static/img/products/tank-top.jpg",
+            "id": "CCH1234ID",
+            "name": "Camping Chair",
+            "description": "Lightweight and foldable camping chair, easy to carry and set up.",
+            "picture": "/static/img/products/Camping-Chair.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 18,
+                "units": 29,
                 "nanos": 990000000
             },
-            "categories": ["clothing", "tops"]
+            "categories": ["camping", "furniture"]
         },
         {
-            "id": "1YMWWN1N4O",
-            "name": "Watch",
-            "description": "This gold-tone stainless steel watch will work with most of your outfits.",
-            "picture": "/static/img/products/watch.jpg",
+            "id": "CTNT1234ID",
+            "name": "Camping Tent",
+            "description": "Spacious and weather-resistant camping tent, perfect for any outdoor adventure.",
+            "picture": "/static/img/products/Camping-Tent.png",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 109,
+                "units": 99,
                 "nanos": 990000000
             },
-            "categories": ["accessories"]
+            "categories": ["camping", "shelter"]
         },
         {
-            "id": "L9ECAV7KIM",
-            "name": "Loafers",
-            "description": "A neat addition to your summer wardrobe.",
-            "picture": "/static/img/products/loafers.jpg",
+            "id": "DJKT1234ID",
+            "name": "Down Jacket",
+            "description": "Warm and comfortable down jacket, ideal for cold weather conditions.",
+            "picture": "/static/img/products/Down-Jacket.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 89,
                 "nanos": 990000000
             },
-            "categories": ["footwear"]
+            "categories": ["clothing", "outerwear"]
         },
         {
-            "id": "2ZYFJ3GM2N",
-            "name": "Hairdryer",
-            "description": "This lightweight hairdryer has 3 heat and speed settings. It's perfect for travel.",
-            "picture": "/static/img/products/hairdryer.jpg",
+            "id": "HLMP1235ID",
+            "name": "Headlamp",
+            "description": "Bright and reliable headlamp, essential for night time outdoor activities.",
+            "picture": "/static/img/products/Headlamp.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 24,
+                "units": 25,
                 "nanos": 990000000
             },
-            "categories": ["hair", "beauty"]
+            "categories": ["gear", "accessories"]
         },
         {
-            "id": "0PUK6V6EV0",
-            "name": "Candle Holder",
-            "description": "This small but intricate candle holder is an excellent gift.",
-            "picture": "/static/img/products/candle-holder.jpg",
+            "id": "HBTS1234ID",
+            "name": "Hiking Boots",
+            "description": "Sturdy and comfortable hiking boots, designed for long treks on rough terrain.",
+            "picture": "/static/img/products/Hiking-Boots.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 18,
+                "units": 75,
                 "nanos": 990000000
             },
-            "categories": ["decor", "home"]
+            "categories": ["footwear", "hiking"]
         },
         {
-            "id": "LS4PSXUNUM",
-            "name": "Salt & Pepper Shakers",
-            "description": "Add some flavor to your kitchen.",
-            "picture": "/static/img/products/salt-and-pepper-shakers.jpg",
+            "id": "HPL1234ID",
+            "name": "Hiking Pole",
+            "description": "Lightweight and adjustable hiking pole, provides support and stability on trails.",
+            "picture": "/static/img/products/Hiking-Pole.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 18,
-                "nanos": 490000000
-            },
-            "categories": ["kitchen"]
-        },
-        {
-            "id": "9SIQT8TOJO",
-            "name": "Bamboo Glass Jar",
-            "description": "This bamboo glass jar can hold 57 oz (1.7 l) and is perfect for any kitchen.",
-            "picture": "/static/img/products/bamboo-glass-jar.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 5,
-                "nanos": 490000000
-            },
-            "categories": ["kitchen"]
-        },
-        {
-            "id": "6E92ZMYYFZ",
-            "name": "Mug",
-            "description": "A simple mug with a mustard interior.",
-            "picture": "/static/img/products/mug.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 8,
+                "units": 35,
                 "nanos": 990000000
             },
-            "categories": ["kitchen"]
+            "categories": ["gear", "hiking"]
+        },
+        {
+            "id": "HPNT1234ID",
+            "name": "Hiking Pants",
+            "description": "Durable and breathable hiking pants, designed for comfort and flexibility.",
+            "picture": "/static/img/products/Hkinh-Pants.jpeg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 55,
+                "nanos": 990000000
+            },
+            "categories": ["clothing", "hiking"]
+        },
+        {
+            "id": "LMP1234ID",
+            "name": "Lamp",
+            "description": "Portable and versatile lamp, suitable for both indoor and outdoor use.",
+            "picture": "/static/img/products/Lamp.jpeg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 20,
+                "nanos": 990000000
+            },
+            "categories": ["gear", "lighting"]
+        },
+        {
+            "id": "SBG1234ID",
+            "name": "Sleeping Bag",
+            "description": "Comfortable and compact sleeping bag, suitable for all seasons.",
+            "picture": "/static/img/products/Sleeping-Bag.jpeg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 70,
+                "nanos": 990000000
+            },
+            "categories": ["camping", "sleeping"]
+        },
+        {
+            "id": "SGLS1234ID",
+            "name": "Sunglasses",
+            "description": "High-quality sunglasses, providing excellent UV protection and style.",
+            "picture": "/static/img/products/Sunglasses.jpeg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 25,
+                "nanos": 990000000
+            },
+            "categories": ["accessories", "gear"]
+        },
+        {
+            "id": "TNT1235ID",
+            "name": "Tent",
+            "description": "Compact and easy-to-setup tent, perfect for solo or duo adventurers.",
+            "picture": "/static/img/products/Tent.jpeg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 85,
+                "nanos": 990000000
+            },
+            "categories": ["camping", "shelter"]
+        },
+        {
+            "id": "WTBT1234ID",
+            "name": "Water Bottle",
+            "description": "Eco-friendly and durable water bottle, keeps your drinks cold or hot for hours.",
+            "picture": "/static/img/products/Water-Bottle.jpeg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 15,
+                "nanos": 990000000
+            },
+            "categories": ["gear", "hydration"]
+        },
+        {
+            "id": "WCH1234ID",
+            "name": "Watch",
+            "description": "Elegant and versatile watch, suitable for both casual and formal occasions.",
+            "picture": "/static/img/products/watch.jpeg",
+            "priceUsd": {
+                "currencyCode": "USD",
+                "units": 110,
+                "nanos": 990000000
+            },
+            "categories": ["accessories", "gear"]
         }
     ]
 }
