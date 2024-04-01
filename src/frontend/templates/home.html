@@ -33,6 +33,25 @@
 
         <div class="row hot-products-row px-xl-6">
 
+          {{ if .recommendations }}
+          <div class="col-12">
+            <h3>For You</h3>
+          </div>
+
+          {{ range .recommendations }}
+          <div class="col-md-4 hot-product-card">
+            <a href="/product/{{.Id}}">
+              <img alt="" src="{{.Picture}}">
+              <div class="hot-product-card-img-overlay"></div>
+            </a>
+            <div>
+              <div class="hot-product-card-name">{{ .Name }}</div>
+              <div class="hot-product-card-price">{{ renderMoney .PriceUsd }}</div>
+            </div>
+          </div>
+          {{ end }}
+          {{ end }}
+
           <div class="col-12">
             <h3>Hot Products</h3>
           </div>

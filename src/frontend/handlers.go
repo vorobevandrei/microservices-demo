@@ -72,6 +72,12 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// Get recommendations for the user.
+	recommendations, err := fe.getRecommendations(r.Context(), sessionID(r), nil, 3)
+	if err != nil {
+		log.WithField("error", err).Warn("failed to get product recommendations")
+	}
+
 	type productView struct {
 		Item  *pb.Product
 		Price *pb.Money
@@ -110,6 +116,7 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 		"user_currency":     currentCurrency(r),
 		"show_currency":     true,
 		"currencies":        currencies,
+		"recommendations":   recommendations,
 		"products":          ps,
 		"cart_size":         cartSize(cart),
 		"banner_color":      os.Getenv("BANNER_COLOR"), // illustrates canary deployments
