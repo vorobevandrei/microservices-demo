@@ -8,7 +8,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 49,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["gear", "accessories"]
         },
@@ -20,7 +20,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 29,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["camping", "furniture"]
         },
@@ -32,7 +32,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 73,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["camping", "furniture"]
         },
@@ -44,7 +44,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 89,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["clothing", "outerwear"]
         },
@@ -56,7 +56,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 25,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["gear", "accessories"]
         },
@@ -68,7 +68,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 75,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["footwear", "hiking"]
         },
@@ -80,7 +80,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 35,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["gear", "hiking"]
         },
@@ -92,7 +92,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 55,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["clothing", "hiking"]
         },
@@ -104,7 +104,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 20,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["gear", "lighting"]
         },
@@ -116,7 +116,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 70,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["camping", "sleeping"]
         },
@@ -128,7 +128,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 25,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["accessories", "gear"]
         },
@@ -140,7 +140,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 85,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["camping", "shelter"]
         },
@@ -152,7 +152,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 15,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["gear", "hydration"]
         },
@@ -164,7 +164,7 @@
             "priceUsd": {
                 "currencyCode": "USD",
                 "units": 110,
-                "nanos": 990000000
+                "nanos": 994000000
             },
             "categories": ["accessories", "gear"]
         }
