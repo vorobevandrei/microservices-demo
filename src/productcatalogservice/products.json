@@ -31,7 +31,7 @@
             "picture": "/static/img/products/Camping-Table.png",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 73,
+                "units": 99,
                 "nanos": 994000000
             },
             "categories": ["camping", "furniture"]
@@ -55,7 +55,7 @@
             "picture": "/static/img/products/Headlamp.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 25,
+                "units": 24,
                 "nanos": 994000000
             },
             "categories": ["gear", "accessories"]
@@ -67,7 +67,7 @@
             "picture": "/static/img/products/Hiking-Boots.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 75,
+                "units": 74,
                 "nanos": 994000000
             },
             "categories": ["footwear", "hiking"]
@@ -79,7 +79,7 @@
             "picture": "/static/img/products/Hiking-Pole.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 35,
+                "units": 34,
                 "nanos": 994000000
             },
             "categories": ["gear", "hiking"]
@@ -91,7 +91,7 @@
             "picture": "/static/img/products/Hkinh-Pants.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 55,
+                "units": 54,
                 "nanos": 994000000
             },
             "categories": ["clothing", "hiking"]
@@ -103,7 +103,7 @@
             "picture": "/static/img/products/Lamp.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 20,
+                "units": 19,
                 "nanos": 994000000
             },
             "categories": ["gear", "lighting"]
@@ -115,7 +115,7 @@
             "picture": "/static/img/products/Sleeping-Bag.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 70,
+                "units": 69,
                 "nanos": 994000000
             },
             "categories": ["camping", "sleeping"]
@@ -127,7 +127,7 @@
             "picture": "/static/img/products/Sunglasses.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 25,
+                "units": 24,
                 "nanos": 994000000
             },
             "categories": ["accessories", "gear"]
@@ -139,7 +139,7 @@
             "picture": "/static/img/products/Tent.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 85,
+                "units": 84,
                 "nanos": 994000000
             },
             "categories": ["camping", "shelter"]
@@ -151,7 +151,7 @@
             "picture": "/static/img/products/Water-Bottle.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 15,
+                "units": 14,
                 "nanos": 994000000
             },
             "categories": ["gear", "hydration"]
@@ -163,7 +163,7 @@
             "picture": "/static/img/products/watch.jpeg",
             "priceUsd": {
                 "currencyCode": "USD",
-                "units": 110,
+                "units": 99,
                 "nanos": 994000000
             },
             "categories": ["accessories", "gear"]
